@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "How does ML work"
+subtitle:   "A simple code shows you how does machine learning work."
+date:       2018-01-01 17:00:00
+author:     "Changik Choi"
+header-img: "img/posts/HowDoesMLWork/header-img.jpg"
+comments: true
+tags: [ ML_Note ]
+---
 
 # How does ML work? 머신 러닝의 학습 원리
 ### what is the basic idea of machine learning / 머신 러닝의 기본적인 학습 원리
@@ -29,7 +39,7 @@ plt.plot(house_price['LotArea'], house_price['SalePrice'], '.')
 
 
 
-![png](output_2_1.png)
+![png](img/posts/HowDoesMLWork/output_2_1.png)
 
 
 
@@ -50,7 +60,7 @@ plt.ylabel('Price', fontsize=12, color='blue')
 
 
 
-![png](output_3_1.png)
+![png](img/posts/HowDoesMLWork/output_3_1.png)
 
 
 
@@ -125,7 +135,7 @@ for w in range(0, 50):
 ```
 
 
-![png](output_11_0.png)
+![png](img/posts/HowDoesMLWork/output_11_0.png)
 
 
 ## Negative Error? / 에러가 음수?
@@ -146,5 +156,5 @@ for w in range(0, 50):
 ```
 
 
-![png](output_13_0.png)
+![png](img/posts/HowDoesMLWork/output_13_0.png)
 
