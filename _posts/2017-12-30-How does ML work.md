@@ -102,10 +102,8 @@ If we know the 'W' we can predict 'y' value when we have 'X' value.
 problem is multiplication does not have inverse, so we move y value to the right side
 and keep the left side as 0. Now we find 'W' that make smallest 'Error'
 
-<img src="/img/posts/How%20does%20ML%20work_files/Fig_1.png", width=400, height=400>
-
-<img src="/img/posts/How%20does%20ML%20work_files/Fig_2.png", width=400, height=400>
-
+![Fig-1](/img/posts/How%20does%20ML%20work_files/Fig_1.png)
+![Fig-2](img/posts/How%20does%20ML%20work_files/Fig_2.png)
 ---
 ## See actual example / 데이터 예제
 plot shows sum of errors on 15 house prices for each 'W' from 0 to 50
