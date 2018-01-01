@@ -50,7 +50,7 @@ plt.ylabel('Price', fontsize=12, color='blue')
 
 
 
-![png](How%20does%20ML%20work_files/How%20does%20ML%20work_3_1.png)
+![png](/img/posts/How%20does%20ML%20work_files/How%20does%20ML%20work_3_1.png)
 
 
 
@@ -87,7 +87,7 @@ plt.legend(['5', '20', '30'])
 
 
 
-![png](How%20does%20ML%20work_files/How%20does%20ML%20work_6_1.png)
+![png](/img/posts/How%20does%20ML%20work_files/How%20does%20ML%20work_6_1.png)
 
 
 ---
@@ -102,8 +102,9 @@ If we know the 'W' we can predict 'y' value when we have 'X' value.
 problem is multiplication does not have inverse, so we move y value to the right side
 and keep the left side as 0. Now we find 'W' that make smallest 'Error'
 
-<img src="assets/Fig_1.png", width=400, height=400>
-<img src="assets/Fig_2.png", width=400, height=400>
+<img src="/img/posts/How%20does%20ML%20work_files/Fig_1.png", width=400, height=400>
+
+<img src="/img/posts/How%20does%20ML%20work_files/Fig_2.png", width=400, height=400>
 
 ---
 ## See actual example / 데이터 예제
@@ -125,7 +126,7 @@ for w in range(0, 50):
 ```
 
 
-![png](How%20does%20ML%20work_files/How%20does%20ML%20work_11_0.png)
+![png](/img/posts/How%20does%20ML%20work_files/How%20does%20ML%20work_11_0.png)
 
 
 ## Negative Error? / 에러가 음수?
@@ -146,5 +147,5 @@ for w in range(0, 50):
 ```
 
 
-![png](How%20does%20ML%20work_files/How%20does%20ML%20work_13_0.png)
+![png](/img/posts/How%20does%20ML%20work_files/How%20does%20ML%20work_13_0.png)
 
