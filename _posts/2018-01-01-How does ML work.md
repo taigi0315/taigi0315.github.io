@@ -39,7 +39,7 @@ plt.plot(house_price['LotArea'], house_price['SalePrice'], '.')
 
 
 
-![png](img/posts/HowDoesMLWork/output_2_1.png)
+![png](/img/posts/HowDoesMLWork/output_2_1.png)
 
 
 
@@ -60,7 +60,7 @@ plt.ylabel('Price', fontsize=12, color='blue')
 
 
 
-![png](img/posts/HowDoesMLWork/output_3_1.png)
+![png](/img/posts/HowDoesMLWork/output_3_1.png)
 
 
 
@@ -97,7 +97,7 @@ plt.legend(['5', '20', '30'])
 
 
 
-![png](/img/posts/how\does\ml\work/output_6_1.png)
+![png](/img/posts/HowDoesMLWork/output_6_1.png)
 
 
 ---
@@ -112,8 +112,8 @@ If we know the 'W' we can predict 'y' value when we have 'X' value.
 problem is multiplication does not have inverse, so we move y value to the right side
 and keep the left side as 0. Now we find 'W' that make smallest 'Error'
 
-<img src="img/posts/how\does\ml\work/Fig_1.png", width=400, height=400>
-<img src="img/posts/how\does\ml\work/Fig_2.png", width=400, height=400>
+<img src="/img/posts/HowDoesMLWork/Fig_1.png", width=400, height=400>
+<img src="/img/posts/HowDoesMLWork//Fig_2.png", width=400, height=400>
 
 ---
 ## See actual example / 데이터 예제
@@ -135,7 +135,7 @@ for w in range(0, 50):
 ```
 
 
-![png](img/posts/HowDoesMLWork/output_11_0.png)
+![png](/img/posts/HowDoesMLWork/output_11_0.png)
 
 
 ## Negative Error? / 에러가 음수?
@@ -156,5 +156,5 @@ for w in range(0, 50):
 ```
 
 
-![png](img/posts/HowDoesMLWork/output_13_0.png)
+![png](/img/posts/HowDoesMLWork/output_13_0.png)
 
