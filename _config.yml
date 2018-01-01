@@ -1,0 +1,45 @@
+# Site settings
+title: Choi's Blog
+default_author: Changik Choi
+description: "Software Developer / Machine Learning Lover"  # used in site head
+
+# register on google analytics and replace this token
+google_analytics: 
+# disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
+# Deleting the value would remove it from footer.
+disqus_url: 
+disqus_id: 
+# register on feedburner and replace this url. Deleting the value will remove it from footer.
+feedburner_url: 
+
+# footer details. Deleting the value would remove it from footer.
+github_username:  taigi0315
+facebook_username:  taigi0315
+email: changik0315@gmail.com
+stackoverflow_username: 
+twitter_username : 
+linkedin_username : changik-choi-963950114
+keybase_username : 
+copyright_name: 
+rss : true
+
+# used for portfolio on home page
+collections:
+  - portfolio
+
+# used to estimate reading time
+wpm: 150
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+port: 8888
+permalink: /blog/:title
+
+# jekyll-paginate. for paginating blog posts.
+paginate: 5
+paginate_path: blog/page:num
+
+# gem dependencies
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
