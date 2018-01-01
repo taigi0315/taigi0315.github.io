@@ -103,7 +103,7 @@ problem is multiplication does not have inverse, so we move y value to the right
 and keep the left side as 0. Now we find 'W' that make smallest 'Error'
 
 ![Fig-1](/img/posts/How%20does%20ML%20work_files/Fig_1.png)
-![Fig-2](img/posts/How%20does%20ML%20work_files/Fig_2.png)
+![Fig-2](/img/posts/How%20does%20ML%20work_files/Fig_2.png)
 ---
 ## See actual example / 데이터 예제
 plot shows sum of errors on 15 house prices for each 'W' from 0 to 50
