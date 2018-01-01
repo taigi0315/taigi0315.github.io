@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "How Does ML Work?"
+subtitle:   "A simple code shows how does machine learning work."
+date:       2017-12-30 17:00:00
+author:     "Changik Choi"
+header-img: "img/posts/ML_background_1.jpg"
+comments: true
+tags: [ ML Note ]
+---
 
 # How does ML work? 머신 러닝의 학습 원리
 ### what is the basic idea of machine learning / 머신 러닝의 기본적인 학습 원리
