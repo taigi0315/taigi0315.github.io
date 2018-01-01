@@ -29,7 +29,7 @@ plt.plot(house_price['LotArea'], house_price['SalePrice'], '.')
 
 
 
-![png](How%20does%20ML%20work_files/How%20does%20ML%20work_2_1.png)
+![png](/img/posts/How%20does%20ML%20work_files/How%20does%20ML%20work_2_1.png)
 
 
 
