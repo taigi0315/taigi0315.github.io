@@ -87,7 +87,7 @@ plt.legend(['5', '20', '30'])
 
 
 
-![png](output_6_1.png)
+![png](/img/posts/how\does\ml\work/output_6_1.png)
 
 
 ---
@@ -102,8 +102,8 @@ If we know the 'W' we can predict 'y' value when we have 'X' value.
 problem is multiplication does not have inverse, so we move y value to the right side
 and keep the left side as 0. Now we find 'W' that make smallest 'Error'
 
-<img src="assets/Fig_1.png", width=400, height=400>
-<img src="assets/Fig_2.png", width=400, height=400>
+<img src="img/posts/how\does\ml\work/Fig_1.png", width=400, height=400>
+<img src="img/posts/how\does\ml\work/Fig_2.png", width=400, height=400>
 
 ---
 ## See actual example / 데이터 예제
