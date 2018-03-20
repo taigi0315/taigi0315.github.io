@@ -9,10 +9,7 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                http://taigi0315.github.io
-<<<<<<< HEAD
 
-=======
->>>>>>> 0c6341dfb5bd15054988e9e84378e07e186611a4
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -42,11 +39,7 @@ disqus_shortname:   choigithubio
 #bing-verify:
 #email:
 #twitter:            username
-<<<<<<< HEAD
-#facebook:          xkdlr@naver.com
-=======
 #facebook:           xkdlr@naver.com
->>>>>>> 0c6341dfb5bd15054988e9e84378e07e186611a4
 github-url:         github.com/taigi0315
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
