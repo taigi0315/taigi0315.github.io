@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Machine Learning Work? (Part 2/3)"
+title: "How Machine Learning Work? (Part 2/2)"
 date: 2017-12-16
 excerpt: "Simple description of how machine learning works."
 tags: [machine learning, beginner]
