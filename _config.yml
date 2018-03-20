@@ -1,45 +1,76 @@
-# Site settings
-title: Choi's Blog
-default_author: Changik Choi
-description: "Software Developer / Machine Learning Lover"  # used in site head
+# Site
+title:              Changik Choi
+bio:                'Changik Choi Bio part'
+description:        "This is Changik Choi's Github Page"
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://localhost:4000
 
-# register on google analytics and replace this token
-google_analytics: 
-# disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
-# Deleting the value would remove it from footer.
-disqus_url: 
-disqus_id: 
-# register on feedburner and replace this url. Deleting the value will remove it from footer.
-feedburner_url: 
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-# footer details. Deleting the value would remove it from footer.
-github_username:  taigi0315
-facebook_username:  taigi0315
-email: changik0315@gmail.com
-stackoverflow_username: 
-twitter_username : 
-linkedin_username : changik-choi-963950114
-keybase_username : 
-copyright_name: 
-rss : true
+# Comments
+disqus_shortname:   choigithubio
 
-# used for portfolio on home page
-collections:
-  - portfolio
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+#twitter:            username
+facebook:           xkdlr@naver.com
+github-url:         github.com/taigi0315
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
 
-# used to estimate reading time
-wpm: 150
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-port: 8888
-permalink: /blog/:title
+jekyll-mentions:
+    base_url: https://github.com
 
-# jekyll-paginate. for paginating blog posts.
-paginate: 5
-paginate_path: blog/page:num
-
-# gem dependencies
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
