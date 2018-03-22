@@ -14,7 +14,7 @@ Let's check how does matrix dot product work.<br />
 We are going to use vectorized computation. Understanding matrix dot product is really important!<br />
 I found a good website for visualizing matrix dot product! <a href="http://matrixmultiplication.xyz" target="_blank">Matrix Multiplication</a><br />
 I won't talk about "What is Linear Regression" much since there are a lot of good tutorials out there<br />
-I highly recommend <a href="https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&campaignid=685340575&adgroupid=32639001341&device=c&keyword=coursera%20machine%20learning%20course&matchtype=b&network=g&devicemodel=&adpostion=1t1&creativeid=243289762778&hide_mobile_promo&gclid=CjwKCAjwhcjVBRBHEiwAoDe5xyj08Sejc01YAg6lGj5C2b6zpBrJwGWl6DQVIxzax2vrPvBNYQLcpRoCv_cQAvD_BwE" target="_blank">Stanford ML course</a>
+I highly recommend <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Stanford ML course</a>
 
 ***
 ## Ready to code? Let's begin
