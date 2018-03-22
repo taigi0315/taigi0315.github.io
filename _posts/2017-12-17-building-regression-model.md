@@ -3,11 +3,16 @@ layout: post
 title: "Building Regression Model"
 date: 2017-12-17
 excerpt: "Building a Linear Regression model from scratch in Python."
-tags: [machine learning, linear regression]
+tags: 
+- machine learning
+- linear regression
+- python
 comments: true
 feature: "../assets/img/posts/BuildRegressionModel/regression.png"
 ---
+
 ***
+
 ## Before we start
 <img src="../assets/img/posts/BuildRegressionModel/Matrix.png" width="75%">
 Let's check how does matrix dot product work.<br />
