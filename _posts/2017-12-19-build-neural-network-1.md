@@ -14,7 +14,7 @@ In this post, I am going to show you how to implement Neural Network in python.
 But I won't talk about "What is Neural Network" or "How does it work?" here <br />
 There are a lot of <a href="https://www.youtube.com/watch?v=aircAruvnKk" target="_blank">Youtube</a> videos and <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Courses</a> out there.<br />
 
-I am going to use <a href="https://www.kaggle.com/terms?token=EBlOyrszSohaNzOoGHbhXMdFGUxX3BdwmdHCi5i6vTvudEZjgYz0bfetXZ2sUVXJWmIuAlbApLpzCQV1SDhAQbMNso3uPZniN4B2bFsYlByCJRVGvDKnGL0jRQq1TU4Q0nsGgpkH1ch5dC4M_mnBkwSn0VUQwd6x5gG4xnqp86XVOPc-CJvWmDx02bsAY0IwZf36Kg2" target="_blank"><b>Bike-Sharing-Demand</b></a> data from Kaggle
+I am going to use <a href="https://www.kaggle.com/c/bike-sharing-demand" target="_blank"><b>Bike-Sharing-Demand</b></a> data from Kaggle
 <img src="../assets/img/posts/build-neural-network-1/kaggle.png"> 
 
 ***
@@ -46,7 +46,7 @@ rides[:24*10].plot(x='datetime', y='count')
 ```
 <img src="../assets/img/posts/build-neural-network-1/table.png" width="100%">
 
-<img src="../assets/img/posts/build-neural-network-1//build_neural_net_3_1.png" width="80%">
+<img src="../assets/img/posts/build-neural-network-1/build_neural_net_3_1.png" width="80%">
 
 ***
 
@@ -119,6 +119,8 @@ print ("Valid Inputs: {}\t Valid Outputs: {}".format(valid_inputs.shape, valid_o
 *** 
 
 ## Build Neural Network from Scratch !
+You definitely will need to understand <b>How Neural Network Works</b> before the implemtation.<br />
+if you are having a hard time implementing, try to check my other post about <b><a href="https://taigi0315.github.io//building-regression-model/" target="_blank">Linear Regression</a></b>
 
 ```python
 class NeuralNetwork(object):
@@ -191,3 +193,16 @@ def MSE(y, Y):
 ```
 
 ***
+
+## Finishing
+Let's wrap it up here. I know this post isn't that long, but it actually has a lot of information.(Will require long enough time for who trying to follow it.)<br />
+
+On next post I will show you 
+* How to train the model we built
+* Check the result with actual value using plot
+* Submit the result on Kaggle
+
+***
+
+<img src="../assets/img/id-card.png" width="100%">
+

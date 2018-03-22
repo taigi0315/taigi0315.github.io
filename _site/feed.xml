@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://localhost:4000//feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000//" rel="alternate" type="text/html" /><updated>2018-03-21T16:41:14-05:00</updated><id>http://localhost:4000//</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Building Regression Model (2/2)</title><link href="http://localhost:4000//build-neural-network-2/" rel="alternate" type="text/html" title="Building Regression Model (2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>http://localhost:4000//build-neural-network-2</id><content type="html" xml:base="http://localhost:4000//build-neural-network-2/">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://localhost:4000//feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000//" rel="alternate" type="text/html" /><updated>2018-03-22T10:54:15-05:00</updated><id>http://localhost:4000//</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Building Regression Model (2/2)</title><link href="http://localhost:4000//build-neural-network-2/" rel="alternate" type="text/html" title="Building Regression Model (2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>http://localhost:4000//build-neural-network-2</id><content type="html" xml:base="http://localhost:4000//build-neural-network-2/">&lt;h1 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h1&gt;
+&lt;h2 id=&quot;here-is-more-information-about-how-to-train-network-from-udacity&quot;&gt;here is more information about “How to train network” from Udacity&lt;/h2&gt;
+&lt;p&gt;###Training the network
+The strategy here is to find hyperparameters such that the error on the training set is low, but you’re not overfitting to the data. If you train the network too long or have too many hidden nodes, it can become overly specific to the training set and will fail to generalize to the validation set. That is, the loss on the validation set will start increasing as the training set loss drops.&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;### Set the hyperparameters here ###&lt;/span&gt;
+&lt;p&gt;You’ll also be using a method know as Stochastic Gradient Descent (SGD) to train the network. The idea is that for each training pass, you grab a random sample of the data instead of using the whole data set. You use many more training passes than with normal gradient descent, but each pass is much faster. This ends up training the network more efficiently. You’ll learn more about SGD later.&lt;/p&gt;
+
+&lt;h3 id=&quot;choose-the-number-of-iterations&quot;&gt;Choose the number of iterations&lt;/h3&gt;
+&lt;p&gt;This is the number of batches of samples from the training data we’ll use to train the network. The more iterations you use, the better the model will fit the data. However, if you use too many iterations, then the model with not generalize well to other data, this is called overfitting. You want to find a number here where the network has a low training loss, and the validation loss is at a minimum. As you start overfitting, you’ll see the training loss continue to decrease while the validation loss starts to increase.&lt;/p&gt;
+
+&lt;h3 id=&quot;choose-the-learning-rate&quot;&gt;Choose the learning rate&lt;/h3&gt;
+&lt;p&gt;This scales the size of weight updates. If this is too big, the weights tend to explode and the network fails to fit the data. Normally a good choice to start at is 0.1; however, if you effectively divide the learning rate by n_records, try starting out with a learning rate of 1. In either case, if the network has problems fitting the data, try reducing the learning rate. Note that the lower the learning rate, the smaller the steps are in the weight updates and the longer it takes for the neural network to converge.&lt;/p&gt;
+
+&lt;h3 id=&quot;choose-the-number-of-hidden-nodes&quot;&gt;Choose the number of hidden nodes&lt;/h3&gt;
+&lt;p&gt;The more hidden nodes you have, the more accurate predictions the model will make. Try a few different numbers and see how it affects the performance. You can look at the losses dictionary for a metric of the network performance. If the number of hidden units is too low, then the model won’t have enough space to learn and if it is too high there are too many options for the direction that the learning can take. The trick here is to find the right balance in number of hidden units you choose.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;training-the-nn-model--check-the-result&quot;&gt;Training the NN model / Check the result&lt;/h2&gt;
+&lt;h3 id=&quot;you-can-find-play-around-with-hyperparameters-to-find-the-best-one&quot;&gt;You can find play around with hyperparameters to find the best one&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Set the hyperparameters&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;iterations&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6000&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;learning_rate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;mf&quot;&gt;0.01&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;hidden_nodes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;
@@ -43,10 +63,11 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;build_neural_net_files/build_neural_net_15_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/posts/build-neural-network-1/build_neural_net_15_0.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Let's plot our first 150 data points &lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;h2 id=&quot;compare-first-150-predictions-with-actual-value&quot;&gt;Compare first 150 predictions with actual value.&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scaled_features&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;valid_inputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predictions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Prediction'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -61,16 +82,14 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;build_neural_net_files/build_neural_net_16_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/posts/build-neural-network-1/build_neural_net_16_0.png&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;result-looks-good-&quot;&gt;Result looks good !&lt;/h2&gt;
-&lt;p&gt;x-axis seems bit odd,  it is because we shuffle the data when we split data into  train/valid sets
-***&lt;/p&gt;
+&lt;p&gt;x-axis seems bit odd,  it is because we shuffle the data when we split data into  train/valid sets&lt;/p&gt;
 
-&lt;h2 id=&quot;actual-prediction-on-test-data-set-using-the-model-we-trained--submit-on-kaggle&quot;&gt;Actual prediction on ‘Test’ data set using the model we trained &amp;amp; submit on Kaggle&lt;/h2&gt;
-&lt;h3 id=&quot;dont-forget-to-run-codes-from-part_1-part_2-if-you-restarted-kernel-&quot;&gt;Don’t forget to run codes from part_1, part_2 if you restarted kernel !&lt;/h3&gt;
 &lt;hr /&gt;
 
+&lt;h2 id=&quot;actual-prediction-on-test-data-set-using-the-model-we-trained--submit-on-kaggle&quot;&gt;Actual prediction on ‘Test’ data set using the model we trained &amp;amp; submit on Kaggle&lt;/h2&gt;
 &lt;p&gt;We are going to do exactly same data-prep we did on part_1 with ‘Test’ data&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# load test data&lt;/span&gt;
@@ -122,18 +141,29 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;alright-ready-to-submit-&quot;&gt;Alright, ready to submit !&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model (1/2)</title><link href="http://localhost:4000//build-neural-network-1/" rel="alternate" type="text/html" title="Building Regression Model (1/2)" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>http://localhost:4000//build-neural-network-1</id><content type="html" xml:base="http://localhost:4000//build-neural-network-1/">&lt;h2 id=&quot;before-we-start&quot;&gt;Before we start..&lt;/h2&gt;
+&lt;h2 id=&quot;alright-ready-to-submit-&quot;&gt;Alright, ready to submit !&lt;/h2&gt;
+&lt;p&gt;Go to Kaggle, and find Bike Sharing Demand data.&lt;br /&gt;
+Click Late Submission, and upload your submit.csv file.&lt;br /&gt;
+The score is not high, but it is with simple NN model we built from scrach ! 
+&lt;img src=&quot;../assets/img/posts/build-neural-network-1/myscoreboard.png&quot; width=&quot;75%&quot; /&gt;
+&lt;img src=&quot;../assets/img/posts/build-neural-network-1/scoreboard.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;finishing-&quot;&gt;Finishing ..&lt;/h2&gt;
+&lt;p&gt;Kaggle is really good website for Data science/Machine Learning.&lt;br /&gt;
+There are a lot of real world data sets, and you can learn from the kernels people shared.
+Like always, I hope this post will be helpful for you!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model (1/2)</title><link href="http://localhost:4000//build-neural-network-1/" rel="alternate" type="text/html" title="Building Regression Model (1/2)" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>http://localhost:4000//build-neural-network-1</id><content type="html" xml:base="http://localhost:4000//build-neural-network-1/">&lt;h2 id=&quot;before-we-start&quot;&gt;Before we start..&lt;/h2&gt;
 
 &lt;p&gt;In this post, I am going to show you how to implement Neural Network in python.
 But I won’t talk about “What is Neural Network” or “How does it work?” here &lt;br /&gt;
 There are a lot of &lt;a href=&quot;https://www.youtube.com/watch?v=aircAruvnKk&quot; target=&quot;_blank&quot;&gt;Youtube&lt;/a&gt; videos and &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot; target=&quot;_blank&quot;&gt;Courses&lt;/a&gt; out there.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I am going to use &lt;a href=&quot;https://www.kaggle.com/terms?token=EBlOyrszSohaNzOoGHbhXMdFGUxX3BdwmdHCi5i6vTvudEZjgYz0bfetXZ2sUVXJWmIuAlbApLpzCQV1SDhAQbMNso3uPZniN4B2bFsYlByCJRVGvDKnGL0jRQq1TU4Q0nsGgpkH1ch5dC4M_mnBkwSn0VUQwd6x5gG4xnqp86XVOPc-CJvWmDx02bsAY0IwZf36Kg2&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Bike-Sharing-Demand&lt;/b&gt;&lt;/a&gt; data from Kaggle
+&lt;p&gt;I am going to use &lt;a href=&quot;https://www.kaggle.com/c/bike-sharing-demand&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Bike-Sharing-Demand&lt;/b&gt;&lt;/a&gt; data from Kaggle
 &lt;img src=&quot;../assets/img/posts/build-neural-network-1/kaggle.png&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -165,7 +195,7 @@ There are a lot of &lt;a href=&quot;https://www.youtube.com/watch?v=aircAruvnKk&
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;../assets/img/posts/build-neural-network-1/table.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/posts/build-neural-network-1//build_neural_net_3_1.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/posts/build-neural-network-1/build_neural_net_3_1.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -242,6 +272,8 @@ Valid Inputs: (1089, 51)	 Valid Outputs: (1089,)
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;build-neural-network-from-scratch-&quot;&gt;Build Neural Network from Scratch !&lt;/h2&gt;
+&lt;p&gt;You definitely will need to understand &lt;b&gt;How Neural Network Works&lt;/b&gt; before the implemtation.&lt;br /&gt;
+if you are having a hard time implementing, try to check my other post about &lt;b&gt;&lt;a href=&quot;https://taigi0315.github.io//building-regression-model/&quot; target=&quot;_blank&quot;&gt;Linear Regression&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NeuralNetwork&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
     &lt;span class=&quot;c&quot;&gt;# Define structure of NN, create placeholders&lt;/span&gt;
@@ -313,7 +345,21 @@ Valid Inputs: (1089, 51)	 Valid Outputs: (1089,)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;hr /&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model</title><link href="http://localhost:4000//building-regression-model/" rel="alternate" type="text/html" title="Building Regression Model" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>http://localhost:4000//building-regression-model</id><content type="html" xml:base="http://localhost:4000//building-regression-model/">&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;finishing&quot;&gt;Finishing&lt;/h2&gt;
+&lt;p&gt;Let’s wrap it up here. I know this post isn’t that long, but it actually has a lot of information.(Will require long enough time for who trying to follow it.)&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;On next post I will show you&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to train the model we built&lt;/li&gt;
+  &lt;li&gt;Check the result with actual value using plot&lt;/li&gt;
+  &lt;li&gt;Submit the result on Kaggle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model</title><link href="http://localhost:4000//building-regression-model/" rel="alternate" type="text/html" title="Building Regression Model" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>http://localhost:4000//building-regression-model</id><content type="html" xml:base="http://localhost:4000//building-regression-model/">&lt;hr /&gt;
 &lt;h2 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;../assets/img/posts/BuildRegressionModel/Matrix.png&quot; width=&quot;75%&quot; /&gt;
 Let’s check how does matrix dot product work.&lt;br /&gt;
