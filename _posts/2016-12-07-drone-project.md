@@ -8,7 +8,7 @@ tag:
 - machine learning
 - OpenCV
 - Drone
-feature: "../assets/img/projects/drone/drone.jpeg"
+feature: "../assets/img/projects/drone/drone.jpg"
 comments: true
 ---
 Drone project was my Senior project and for some reason<br />
