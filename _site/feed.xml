@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://taigi0315.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://taigi0315.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taigi0315.github.io/" rel="alternate" type="text/html" /><updated>2018-03-22T15:55:27-05:00</updated><id>https://taigi0315.github.io/</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Building Regression Model (2/2)</title><link href="https://taigi0315.github.io/build-neural-network-2/" rel="alternate" type="text/html" title="Building Regression Model (2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-2</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-2/">&lt;h1 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://taigi0315.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://taigi0315.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taigi0315.github.io/" rel="alternate" type="text/html" /><updated>2018-03-27T11:24:03-05:00</updated><id>https://taigi0315.github.io/</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Building Regression Model (2/2)</title><link href="https://taigi0315.github.io/build-neural-network-2/" rel="alternate" type="text/html" title="Building Regression Model (2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-2</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-2/">&lt;h1 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h1&gt;
 &lt;h2 id=&quot;here-is-more-information-about-how-to-train-network-from-udacity&quot;&gt;here is more information about “How to train network” from Udacity&lt;/h2&gt;
 &lt;p&gt;###Training the network
 The strategy here is to find hyperparameters such that the error on the training set is low, but you’re not overfitting to the data. If you train the network too long or have too many hidden nodes, it can become overly specific to the training set and will fail to generalize to the validation set. That is, the loss on the validation set will start increasing as the training set loss drops.&lt;/p&gt;
@@ -755,7 +755,12 @@ to solve this problem, simply we square the error, aka MSE(Mean Squared Error)&l
 Hope this post helped you understanding how machine learning works ! &lt;br /&gt;&lt;/font&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="beginner" /><category term="python" /><summary type="html">Simple description of how machine learning works.</summary></entry><entry><title type="html">Gold Price Predict</title><link href="https://taigi0315.github.io/predict-gold-price/" rel="alternate" type="text/html" title="Gold Price Predict" /><published>2016-04-06T00:00:00-05:00</published><updated>2016-04-06T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-gold-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-gold-price/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="beginner" /><category term="python" /><summary type="html">Simple description of how machine learning works.</summary></entry><entry><title type="html">Drone Project(Senior Project)</title><link href="https://taigi0315.github.io/drone-project/" rel="alternate" type="text/html" title="Drone Project(Senior Project)" /><published>2016-12-07T00:00:00-06:00</published><updated>2016-12-07T00:00:00-06:00</updated><id>https://taigi0315.github.io/drone-project</id><content type="html" xml:base="https://taigi0315.github.io/drone-project/">&lt;p&gt;Drone project was my Senior project and for some reason&lt;br /&gt;
+There are some errors in PPT(using microsoft embed)&lt;br /&gt;
+For more information, please leave me comment or contact me via email :)&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/nDkxLBwqv0wCgG&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/nDkxLBwqv0wCgG&quot; title=&quot;Drone ppt&quot; target=&quot;_blank&quot;&gt;Drone ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/changikchoi3&quot; target=&quot;_blank&quot;&gt;changik choi&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</content><category term="machine learning" /><category term="OpenCV" /><category term="Drone" /><summary type="html">Detecting parking permit on car in parking lot using drone</summary></entry><entry><title type="html">Gold Price Predict</title><link href="https://taigi0315.github.io/predict-gold-price/" rel="alternate" type="text/html" title="Gold Price Predict" /><published>2016-04-06T00:00:00-05:00</published><updated>2016-04-06T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-gold-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-gold-price/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
 &lt;font size=&quot;3&quot;&gt;
 Project uses gold price data from Quandl&lt;br /&gt;
 Script grabs certain days of gold price(controlled by windows size parameter), and predicts next day gold price using linear regression algorithm&lt;br /&gt;
@@ -781,7 +786,109 @@ Script runs certain period of time, and return the result of trading.
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-table.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-graph.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="linear regression" /><summary type="html">Predict gold price using Linear Regression and virtual trading using Greedy Algorithm.</summary></entry><entry><title type="html">Is lot empty?</title><link href="https://taigi0315.github.io/is-lot-empty/" rel="alternate" type="text/html" title="Is lot empty?" /><published>2015-08-10T00:00:00-05:00</published><updated>2015-08-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/is-lot-empty</id><content type="html" xml:base="https://taigi0315.github.io/is-lot-empty/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-graph.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="linear regression" /><summary type="html">Predict gold price using Linear Regression and virtual trading using Greedy Algorithm.</summary></entry><entry><title type="html">Predict Stock Price</title><link href="https://taigi0315.github.io/predict-stock-price/" rel="alternate" type="text/html" title="Predict Stock Price" /><published>2015-08-10T00:00:00-05:00</published><updated>2015-08-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-stock-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-stock-price/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;font size=&quot;3&quot;&gt;
+Predicting stock market price is one of the most attractive prediction problems.&lt;br /&gt;
+The fact is the stock prices are measured by needs and support which means it is decided by personal decision.&lt;br /&gt;
+This is why predicting stock prices has been and remains unsolved.
+&lt;/font&gt;
+&lt;hr /&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+&lt;img src=&quot;../assets/img/projects/stock-price-predict/wordcloud.png&quot; /&gt;
+&lt;img src=&quot;../assets/img/projects/stock-price-predict/worldstockexchanges.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+&lt;font size=&quot;3&quot;&gt;
+Project uses variety of data that is related with target stock price(Apple Inc) in many perspectives.&lt;br /&gt;
+Project assumes that our target stock price has a connection with global economic data.&lt;br /&gt;
+Data is accumulated from Quandl, USA government, and Yahoo finance.&lt;br /&gt;
+* Index Data
+* Community Data
+* Currency Data
+&lt;/font&gt;
+
+&lt;h3 id=&quot;index-data&quot;&gt;Index Data&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SwissMarket&lt;/li&gt;
+&lt;li&gt;STI&lt;/li&gt;
+&lt;li&gt;SP500 &lt;/li&gt;
+&lt;li&gt;Russell1000&lt;/li&gt;
+&lt;li&gt;NASDAQ&lt;/li&gt;
+&lt;li&gt;Kospi&lt;/li&gt;
+&lt;li&gt;CAC40&lt;/li&gt;
+&lt;li&gt;ATX&lt;/li&gt;
+&lt;li&gt;Nikkei225&lt;/li&gt;
+&lt;li&gt;Treasury 5 year&lt;/li&gt;
+&lt;li&gt;Treasury 30 year&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;commmodity-data&quot;&gt;Commmodity Data&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gold price in USD&lt;/li&gt;
+&lt;li&gt;Silver price in USD&lt;/li&gt;
+&lt;li&gt;Oil price in USD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;currency-data&quot;&gt;Currency Data&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/applesupply-2.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt; Apple Global Supply &lt;/font&gt;&lt;/center&gt;
+&lt;ul&gt;
+&lt;li&gt;Europe Euro to USD&lt;/li&gt;
+&lt;li&gt;China Yen to USD&lt;/li&gt;
+&lt;li&gt;Korea Won to USD&lt;/li&gt;
+&lt;li&gt;Colombian Peso to USD&lt;/li&gt;
+&lt;li&gt;Japanese Yen to USD&lt;/li&gt;
+&lt;li&gt;Malaysian Ringgit to USD&lt;/li&gt;
+&lt;li&gt;Thai Baht to USD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;others&quot;&gt;Others&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Window size&lt;/li&gt;
+&lt;li&gt;Month&lt;/li&gt;
+&lt;li&gt;Other Stocks in S&amp;amp;P500 which has high or low Z-Score with Apple stock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4VCnhPMnv-4&quot; target=&quot;_blank&quot; width=&quot;50%&quot;&gt;
+	&lt;img src=&quot;../assets/img/projects/stock-price-predict/relatedStock-img.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt;S&amp;amp;P500 Relationship based on Z-Score&lt;/font&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;model&quot;&gt;Model&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/nn.png&quot; width=&quot;65%&quot; /&gt;
+&lt;b&gt;Neural Network&lt;/b&gt;&lt;/p&gt;
+&lt;font size=&quot;3&quot;&gt;
+-Input : today’s feature values&lt;br /&gt;
+-Output : tomorrow’s target price in 2 classes(positive / negative)&lt;br /&gt;
+&lt;/font&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/test1.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt; Accuracy with different iteration &lt;/font&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/test2.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt; Accuracy with different window size &lt;/font&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/test3.png&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt; Accuracy with different size of hidden layer&lt;/font&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/stock-price-predict/result.png&quot; align=&quot;left&quot; width=&quot;35%&quot; /&gt;&lt;/p&gt;
+
+&lt;font size=&quot;3&quot;&gt;
+&amp;nbsp; The highest accuracy I found in multiple experiments was 76.48% &lt;br /&gt;
+&amp;nbsp; Add ‘Month columns’ actually increase performance of program in most of experiment&lt;br /&gt;
+&amp;nbsp; Neural network is really strong but it also needs a lot of experiments to achieve its best performance&lt;br /&gt;
+&lt;/font&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="neural network" /><category term="z score" /><summary type="html">Predict Apple stock price using Neural Network</summary></entry><entry><title type="html">Is lot empty?</title><link href="https://taigi0315.github.io/is-lot-empty/" rel="alternate" type="text/html" title="Is lot empty?" /><published>2015-07-10T00:00:00-05:00</published><updated>2015-07-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/is-lot-empty</id><content type="html" xml:base="https://taigi0315.github.io/is-lot-empty/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
 &lt;font size=&quot;3&quot;&gt;
 Project uses parking lot image data(PKlot) from Federal University of Parana&lt;br /&gt;
 Script gray scale the original image and crop specific lot area out of whole image.&lt;br /&gt;
