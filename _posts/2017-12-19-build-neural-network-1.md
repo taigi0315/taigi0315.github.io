@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Regression Model (1/2)"
+title: "Bike Sharing Predict using Neural Network (1/2)"
 date: 2017-12-17
 excerpt: "Building a Neural Network Model from scratch in Python."
 tags: [Machine Learning, Neural Network, Python]
@@ -8,8 +8,9 @@ comments: true
 feature: "../assets/img/posts/build-neural-network-1/bike.png"
 ---
 
-## Before we start.. 
+<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
+## Before we start.. 
 In this post, I am going to show you how to implement Neural Network in python.
 But I won't talk about "What is Neural Network" or "How does it work?" here <br />
 There are a lot of <a href="https://www.youtube.com/watch?v=aircAruvnKk" target="_blank">Youtube</a> videos and <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Courses</a> out there.<br />

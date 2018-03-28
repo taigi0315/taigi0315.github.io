@@ -7,6 +7,7 @@ tags: [machine learning, beginner, python]
 comments: true
 feature: "../assets/img/posts/how-machinelearning-work-1/robot.jpg"
 ---
+<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 # How to find the best 'Weight'? Gradient Descent! 
 In this post, I will talk about 'Gradient Descent', one of the most popular way to find best 'Wegith', with an example from the previous post.<br />
@@ -15,6 +16,7 @@ There are many different optimization algorithm, and you will need to study calc
 (I have learned like 5 times, and still confusing 😧)
 
 ---
+
 <figure class="half">
 <img src="../assets/img/posts/how-machinelearning-work-2/cost_graph.png">    
 <img src="../assets/img/posts/how-machinelearning-work-2/going_down.png">

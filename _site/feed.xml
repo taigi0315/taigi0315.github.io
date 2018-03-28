@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://taigi0315.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://taigi0315.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taigi0315.github.io/" rel="alternate" type="text/html" /><updated>2018-03-27T11:26:29-05:00</updated><id>https://taigi0315.github.io/</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Building Regression Model (2/2)</title><link href="https://taigi0315.github.io/build-neural-network-2/" rel="alternate" type="text/html" title="Building Regression Model (2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-2</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-2/">&lt;h1 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://taigi0315.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://taigi0315.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taigi0315.github.io/" rel="alternate" type="text/html" /><updated>2018-03-28T13:30:24-05:00</updated><id>https://taigi0315.github.io/</id><title type="html">Changik Choi</title><subtitle>Choi's Blog/Project Git Page</subtitle><entry><title type="html">Bike Sharing Predict using Neural Network(2/2)</title><link href="https://taigi0315.github.io/build-neural-network-2/" rel="alternate" type="text/html" title="Bike Sharing Predict using Neural Network(2/2)" /><published>2017-12-19T00:00:00-06:00</published><updated>2017-12-19T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-2</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-2/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/chois-ml-note&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h1&gt;
 &lt;h2 id=&quot;here-is-more-information-about-how-to-train-network-from-udacity&quot;&gt;here is more information about “How to train network” from Udacity&lt;/h2&gt;
 &lt;p&gt;###Training the network
 The strategy here is to find hyperparameters such that the error on the training set is low, but you’re not overfitting to the data. If you train the network too long or have too many hidden nodes, it can become overly specific to the training set and will fail to generalize to the validation set. That is, the loss on the validation set will start increasing as the training set loss drops.&lt;/p&gt;
@@ -157,8 +159,9 @@ The score is not high, but it is with simple NN model we built from scrach !
 There are a lot of real world data sets, and you can learn from the kernels people shared.
 Like always, I hope this post will be helpful for you!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model (1/2)</title><link href="https://taigi0315.github.io/build-neural-network-1/" rel="alternate" type="text/html" title="Building Regression Model (1/2)" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-1</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-1/">&lt;h2 id=&quot;before-we-start&quot;&gt;Before we start..&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Bike Sharing Predict using Neural Network (1/2)</title><link href="https://taigi0315.github.io/build-neural-network-1/" rel="alternate" type="text/html" title="Bike Sharing Predict using Neural Network (1/2)" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>https://taigi0315.github.io/build-neural-network-1</id><content type="html" xml:base="https://taigi0315.github.io/build-neural-network-1/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/chois-ml-note&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
 
+&lt;h2 id=&quot;before-we-start&quot;&gt;Before we start..&lt;/h2&gt;
 &lt;p&gt;In this post, I am going to show you how to implement Neural Network in python.
 But I won’t talk about “What is Neural Network” or “How does it work?” here &lt;br /&gt;
 There are a lot of &lt;a href=&quot;https://www.youtube.com/watch?v=aircAruvnKk&quot; target=&quot;_blank&quot;&gt;Youtube&lt;/a&gt; videos and &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot; target=&quot;_blank&quot;&gt;Courses&lt;/a&gt; out there.&lt;br /&gt;&lt;/p&gt;
@@ -359,7 +362,7 @@ if you are having a hard time implementing, try to check my other post about &lt
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model</title><link href="https://taigi0315.github.io/building-regression-model/" rel="alternate" type="text/html" title="Building Regression Model" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>https://taigi0315.github.io/building-regression-model</id><content type="html" xml:base="https://taigi0315.github.io/building-regression-model/">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="Machine Learning" /><category term="Neural Network" /><category term="Python" /><summary type="html">Building a Neural Network Model from scratch in Python.</summary></entry><entry><title type="html">Building Regression Model</title><link href="https://taigi0315.github.io/building-regression-model/" rel="alternate" type="text/html" title="Building Regression Model" /><published>2017-12-17T00:00:00-06:00</published><updated>2017-12-17T00:00:00-06:00</updated><id>https://taigi0315.github.io/building-regression-model</id><content type="html" xml:base="https://taigi0315.github.io/building-regression-model/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/chois-ml-note&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
 
 &lt;h2 id=&quot;before-we-start&quot;&gt;Before we start&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;../assets/img/posts/BuildRegressionModel/Matrix.png&quot; width=&quot;75%&quot; /&gt;
@@ -370,6 +373,7 @@ I won’t talk about “What is Linear Regression” much since there are a lot 
 I highly recommend &lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot; target=&quot;_blank&quot;&gt;Stanford ML course&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
 &lt;h2 id=&quot;ready-to-code-lets-begin&quot;&gt;Ready to code? Let’s begin&lt;/h2&gt;
 &lt;p&gt;Like always, load up all libraries we need first &lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Importing libraries we need&lt;/span&gt;
@@ -494,13 +498,16 @@ It is true you can build a model faster and easier with library(tensorflow, scik
 But coding up the machine learning algorithm from scratch will give you deeper understanding of it!&lt;br /&gt;
 I will post about &lt;b&gt;Neural Network&lt;/b&gt; next !&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="linear regression" /><category term="python" /><summary type="html">Building a Linear Regression model from scratch in Python.</summary></entry><entry><title type="html">How Machine Learning Work? (Part 2/2)</title><link href="https://taigi0315.github.io/how-machinelearning-work-2/" rel="alternate" type="text/html" title="How Machine Learning Work? (Part 2/2)" /><published>2017-12-16T00:00:00-06:00</published><updated>2017-12-16T00:00:00-06:00</updated><id>https://taigi0315.github.io/how-machinelearning-work-2</id><content type="html" xml:base="https://taigi0315.github.io/how-machinelearning-work-2/">&lt;h1 id=&quot;how-to-find-the-best-weight-gradient-descent&quot;&gt;How to find the best ‘Weight’? Gradient Descent!&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="linear regression" /><category term="python" /><summary type="html">Building a Linear Regression model from scratch in Python.</summary></entry><entry><title type="html">How Machine Learning Work? (Part 2/2)</title><link href="https://taigi0315.github.io/how-machinelearning-work-2/" rel="alternate" type="text/html" title="How Machine Learning Work? (Part 2/2)" /><published>2017-12-16T00:00:00-06:00</published><updated>2017-12-16T00:00:00-06:00</updated><id>https://taigi0315.github.io/how-machinelearning-work-2</id><content type="html" xml:base="https://taigi0315.github.io/how-machinelearning-work-2/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/chois-ml-note&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;how-to-find-the-best-weight-gradient-descent&quot;&gt;How to find the best ‘Weight’? Gradient Descent!&lt;/h1&gt;
 &lt;p&gt;In this post, I will talk about ‘Gradient Descent’, one of the most popular way to find best ‘Wegith’, with an example from the previous post.&lt;br /&gt;
 There are many different optimization algorithm, and you will need to study calculus to &lt;b&gt;fully&lt;/b&gt; understand it.&lt;br /&gt;
 &lt;b&gt;Don’t give up even though you don’t understand this at once.&lt;/b&gt;
 (I have learned like 5 times, and still confusing 😧)&lt;/p&gt;
 
 &lt;hr /&gt;
+
 &lt;figure class=&quot;half&quot;&gt;
 &lt;img src=&quot;../assets/img/posts/how-machinelearning-work-2/cost_graph.png&quot; /&gt;    
 &lt;img src=&quot;../assets/img/posts/how-machinelearning-work-2/going_down.png&quot; /&gt;
@@ -638,7 +645,9 @@ Since it is till confusing to me as well, it was hard to make a post about it  �
 Now you understand basic machine learning principle, you can show off to your friends and family&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="beginner" /><category term="python" /><summary type="html">Simple description of how machine learning works.</summary></entry><entry><title type="html">How Machine Learning Work? (Part 1/2)</title><link href="https://taigi0315.github.io/how-machinelearning-work-1/" rel="alternate" type="text/html" title="How Machine Learning Work? (Part 1/2)" /><published>2017-12-15T00:00:00-06:00</published><updated>2017-12-15T00:00:00-06:00</updated><id>https://taigi0315.github.io/how-machinelearning-work-1</id><content type="html" xml:base="https://taigi0315.github.io/how-machinelearning-work-1/">&lt;p&gt;In this post, I am going to give you a simple description of how machine learning work.&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/id-card.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="beginner" /><category term="python" /><summary type="html">Simple description of how machine learning works.</summary></entry><entry><title type="html">How Machine Learning Work? (Part 1/2)</title><link href="https://taigi0315.github.io/how-machinelearning-work-1/" rel="alternate" type="text/html" title="How Machine Learning Work? (Part 1/2)" /><published>2017-12-15T00:00:00-06:00</published><updated>2017-12-15T00:00:00-06:00</updated><id>https://taigi0315.github.io/how-machinelearning-work-1</id><content type="html" xml:base="https://taigi0315.github.io/how-machinelearning-work-1/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/chois-ml-note&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;p&gt;In this post, I am going to give you a simple description of how machine learning work.&lt;br /&gt;
 &lt;b&gt;You won’t need &lt;font color=&quot;red&quot;&gt;Any&lt;/font&gt; background knowledge!&lt;/b&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -760,14 +769,14 @@ There are some errors in PPT(using microsoft embed)&lt;br /&gt;
 For more information, please leave me comment or contact me via email :)&lt;br /&gt;&lt;/p&gt;
 
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/nDkxLBwqv0wCgG&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/nDkxLBwqv0wCgG&quot; title=&quot;Drone ppt&quot; target=&quot;_blank&quot;&gt;Drone ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/changikchoi3&quot; target=&quot;_blank&quot;&gt;changik choi&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</content><category term="machine learning" /><category term="OpenCV" /><category term="Drone" /><summary type="html">Detecting parking permit on car in parking lot using drone</summary></entry><entry><title type="html">Gold Price Predict</title><link href="https://taigi0315.github.io/predict-gold-price/" rel="alternate" type="text/html" title="Gold Price Predict" /><published>2016-04-06T00:00:00-05:00</published><updated>2016-04-06T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-gold-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-gold-price/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/nDkxLBwqv0wCgG&quot; title=&quot;Drone ppt&quot; target=&quot;_blank&quot;&gt;Drone ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/changikchoi3&quot; target=&quot;_blank&quot;&gt;changik choi&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</content><category term="machine learning" /><category term="OpenCV" /><category term="Drone" /><summary type="html">Detecting parking permit on car in parking lot using drone</summary></entry><entry><title type="html">Gold Price Predict</title><link href="https://taigi0315.github.io/predict-gold-price/" rel="alternate" type="text/html" title="Gold Price Predict" /><published>2016-04-06T00:00:00-05:00</published><updated>2016-04-06T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-gold-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-gold-price/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/GoldPricePrediction-Linear-Regression-_R&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
 &lt;font size=&quot;3&quot;&gt;
 Project uses gold price data from Quandl&lt;br /&gt;
 Script grabs certain days of gold price(controlled by windows size parameter), and predicts next day gold price using linear regression algorithm&lt;br /&gt;
 Using Greedy algorithm, script decide selling the gold it is holding, or purchase gold with cash balance it has.
 Script runs certain period of time, and return the result of trading.
 &lt;/font&gt;
-&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/GoldPricePrediction-Linear-Regression-_R&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -786,12 +795,15 @@ Script runs certain period of time, and return the result of trading.
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-table.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-graph.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="linear regression" /><summary type="html">Predict gold price using Linear Regression and virtual trading using Greedy Algorithm.</summary></entry><entry><title type="html">Predict Stock Price</title><link href="https://taigi0315.github.io/predict-stock-price/" rel="alternate" type="text/html" title="Predict Stock Price" /><published>2015-08-10T00:00:00-05:00</published><updated>2015-08-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-stock-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-stock-price/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/img/projects/gold-price-predict/gold-price-graph.jpg&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="linear regression" /><summary type="html">Predict gold price using Linear Regression and virtual trading using Greedy Algorithm.</summary></entry><entry><title type="html">Predict Stock Price</title><link href="https://taigi0315.github.io/predict-stock-price/" rel="alternate" type="text/html" title="Predict Stock Price" /><published>2015-08-10T00:00:00-05:00</published><updated>2015-08-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/predict-stock-price</id><content type="html" xml:base="https://taigi0315.github.io/predict-stock-price/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/Predict-Stock-Market-Using-ML&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 &lt;font size=&quot;3&quot;&gt;
 Predicting stock market price is one of the most attractive prediction problems.&lt;br /&gt;
 The fact is the stock prices are measured by needs and support which means it is decided by personal decision.&lt;br /&gt;
 This is why predicting stock prices has been and remains unsolved.
 &lt;/font&gt;
+
 &lt;hr /&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
@@ -855,7 +867,7 @@ Data is accumulated from Quandl, USA government, and Yahoo finance.&lt;br /&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4VCnhPMnv-4&quot; target=&quot;_blank&quot; width=&quot;50%&quot;&gt;
 	&lt;img src=&quot;../assets/img/projects/stock-price-predict/relatedStock-img.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
-&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt;S&amp;amp;P500 Relationship based on Z-Score&lt;/font&gt;&lt;/center&gt;
+&lt;center&gt;&lt;font size=&quot;2&quot; colot=&quot;gray&quot;&gt;(' ')Watch on Youtube&lt;br /&gt; S&amp;amp;P500 Relationship based on Z-Score&lt;/font&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -888,7 +900,9 @@ Data is accumulated from Quandl, USA government, and Yahoo finance.&lt;br /&gt;
 &amp;nbsp; Neural network is really strong but it also needs a lot of experiments to achieve its best performance&lt;br /&gt;
 &lt;/font&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="neural network" /><category term="z score" /><summary type="html">Predict Apple stock price using Neural Network</summary></entry><entry><title type="html">Is lot empty?</title><link href="https://taigi0315.github.io/is-lot-empty/" rel="alternate" type="text/html" title="Is lot empty?" /><published>2015-07-10T00:00:00-05:00</published><updated>2015-07-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/is-lot-empty</id><content type="html" xml:base="https://taigi0315.github.io/is-lot-empty/">&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
+&lt;br /&gt;&lt;/p&gt;</content><category term="machine learning" /><category term="R" /><category term="neural network" /><category term="z score" /><summary type="html">Predict Apple stock price using Neural Network</summary></entry><entry><title type="html">Is lot empty?</title><link href="https://taigi0315.github.io/is-lot-empty/" rel="alternate" type="text/html" title="Is lot empty?" /><published>2015-07-10T00:00:00-05:00</published><updated>2015-07-10T00:00:00-05:00</updated><id>https://taigi0315.github.io/is-lot-empty</id><content type="html" xml:base="https://taigi0315.github.io/is-lot-empty/">&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/Parking-Lot-Classifier&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;about-project&quot;&gt;About Project&lt;/h1&gt;
 &lt;font size=&quot;3&quot;&gt;
 Project uses parking lot image data(PKlot) from Federal University of Parana&lt;br /&gt;
 Script gray scale the original image and crop specific lot area out of whole image.&lt;br /&gt;
@@ -896,8 +910,6 @@ Logistic model is trained using 10 fold cross validation.&lt;br /&gt;
 Script returns predicted value from 0 to 1.&lt;br /&gt;
 Using threshold(0.5) we can convert predicted value to 0(empty lot) or 1(car in lot)&lt;br /&gt;
 &lt;/font&gt;
-
-&lt;center&gt;&lt;b&gt;&lt;a href=&quot;https://github.com/taigi0315/Parking-Lot-Classifier&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../assets/img/GitHub-Mark.png&quot; /&gt;&lt;font size=&quot;4&quot;&gt;Git Repo Link&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 

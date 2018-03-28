@@ -12,6 +12,7 @@ tag:
 feature: "../assets/img/projects/parking-lot/lot.jpeg"
 comments: true
 ---
+<center><b><a href="https://github.com/taigi0315/Parking-Lot-Classifier" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 # About Project
 <font size="3">
@@ -22,10 +23,7 @@ Script returns predicted value from 0 to 1.<br />
 Using threshold(0.5) we can convert predicted value to 0(empty lot) or 1(car in lot)<br />
 </font>
 
-<center><b><a href="https://github.com/taigi0315/Parking-Lot-Classifier" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
-
 ***
-
 
 <img src="../assets/img/projects/parking-lot/project_3_info1.jpg" width="95%">
 

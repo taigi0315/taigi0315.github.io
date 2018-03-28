@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Building Regression Model (2/2)"
+title: "Bike Sharing Predict using Neural Network(2/2)"
 date: 2017-12-19
 excerpt: "Building a Neural Network Model from scratch in Python."
 tags: [Machine Learning, Neural Network, Python]
 comments: true
 feature: "../assets/img/posts/build-neural-network-1/bike.png"
 ---
+
+<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 # Before we start
 ## here is more information about "How to train network" from Udacity

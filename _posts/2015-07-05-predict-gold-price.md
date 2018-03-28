@@ -11,7 +11,7 @@ tag:
 feature: "../assets/img/projects/gold-price-predict/goldprice.jpg"
 comments: true
 ---
-
+<center><b><a href="https://github.com/taigi0315/GoldPricePrediction-Linear-Regression-_R" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 # About Project
 <font size="3">
 Project uses gold price data from Quandl<br />
@@ -19,7 +19,6 @@ Script grabs certain days of gold price(controlled by windows size parameter), a
 Using Greedy algorithm, script decide selling the gold it is holding, or purchase gold with cash balance it has.
 Script runs certain period of time, and return the result of trading.
 </font>
-<center><b><a href="https://github.com/taigi0315/GoldPricePrediction-Linear-Regression-_R" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 ***
 

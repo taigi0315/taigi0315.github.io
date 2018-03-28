@@ -12,6 +12,7 @@ tag:
 feature: "../assets/img/projects/stock-price-predict/apple-stock1.jpeg"
 comments: true
 ---
+<center><b><a href="https://github.com/taigi0315/Predict-Stock-Market-Using-ML" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 ## Intro
 <font size="3">
@@ -19,6 +20,7 @@ Predicting stock market price is one of the most attractive prediction problems.
 The fact is the stock prices are measured by needs and support which means it is decided by personal decision.<br />
 This is why predicting stock prices has been and remains unsolved.
 </font>
+
 ***
 
 <figure class="half">
@@ -82,7 +84,7 @@ Data is accumulated from Quandl, USA government, and Yahoo finance.<br />
 <a href="https://www.youtube.com/watch?v=4VCnhPMnv-4" target="_blank" width="50%">
 	<img src="../assets/img/projects/stock-price-predict/relatedStock-img.png">
 </a>
-<center><font size="2" colot="gray">S&P500 Relationship based on Z-Score</font></center>
+<center><font size="2" colot="gray">(' ')Watch on Youtube<br /> S&P500 Relationship based on Z-Score</font></center>
 
 ***
 

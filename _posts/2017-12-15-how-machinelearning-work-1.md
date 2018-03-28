@@ -7,6 +7,7 @@ tags: [machine learning, beginner, python]
 comments: true
 feature: "../assets/img/posts/how-machinelearning-work-1/robot.jpg"
 ---
+<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 In this post, I am going to give you a simple description of how machine learning work.<br />
 <b>You won't need <font color='red'>Any</font> background knowledge!</b>

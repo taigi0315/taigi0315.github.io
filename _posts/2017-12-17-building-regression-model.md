@@ -10,8 +10,7 @@ tags:
 comments: true
 feature: "../assets/img/posts/BuildRegressionModel/regression.png"
 ---
-
-***
+<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 ## Before we start
 <img src="../assets/img/posts/BuildRegressionModel/Matrix.png" width="75%">
@@ -22,6 +21,7 @@ I won't talk about "What is Linear Regression" much since there are a lot of goo
 I highly recommend <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Stanford ML course</a>
 
 ***
+
 ## Ready to code? Let's begin
 Like always, load up all libraries we need first <br />
 ```python
