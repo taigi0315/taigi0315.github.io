@@ -8,7 +8,7 @@ comments: true
 feature: "../assets/img/posts/build-neural-network-1/bike.png"
 ---
 
-<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
+<center><b><a href="https://github.com/taigi0315/chois-ml-note/tree/master/Bike-Sharing_NN" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 # Before we start
 ## here is more information about "How to train network" from Udacity

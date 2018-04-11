@@ -8,7 +8,7 @@ comments: true
 feature: "../assets/img/posts/build-neural-network-1/bike.png"
 ---
 
-<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
+<center><b><a href="https://github.com/taigi0315/chois-ml-note/tree/master/Bike-Sharing_NN" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 ## Before we start.. 
 In this post, I am going to show you how to implement Neural Network in python.

@@ -10,7 +10,7 @@ tags:
 comments: true
 feature: "../assets/img/posts/BuildRegressionModel/regression.png"
 ---
-<center><b><a href="https://github.com/taigi0315/chois-ml-note" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
+<center><b><a href="https://github.com/taigi0315/chois-ml-note/tree/master/BuildingRegressionModeling" target="_blank"><img src="../assets/img/GitHub-Mark.png"><font size="4">Git Repo Link</font></a></b></center>
 
 ## Before we start
 <img src="../assets/img/posts/BuildRegressionModel/Matrix.png" width="75%">
