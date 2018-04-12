@@ -130,19 +130,30 @@ li .highlight pre {
 
 // table
 table {
-	width: 100%;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin:0;
+  padding:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-// notice
-.notice {
-    margin-top: 1.5em;
-    padding: .5em 1em;
-    text-indent: 0;
-    @include font-rem(14);
-    background-color: $color_gray;
-    border: 1px solid $color_pink_swan;
-    @include rounded(3px);
+table tr {
+  border: 1px solid #ddd;
+  padding: 3px;
 }
+
+table th, table td {
+  padding: 5px;
+  text-align: center;
+}
+
+table th {
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
 
 // description title
 dt {
