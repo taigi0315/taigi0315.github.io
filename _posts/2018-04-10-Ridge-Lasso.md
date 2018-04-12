@@ -604,9 +604,7 @@ lasso_model.fit(train_X, train_y, l1_penalty=1, tolerance=10, verbose=True)
     max change : 257.082
     max change : 7.224
     max change : 27.868
-```
 
-```python
 plt.scatter(train_X['sqft_living'], train_y)
 plt.scatter(train_X['sqft_living'], lasso_model.predict(train_X))
 plt.xlabel('sqft_living', fontsize=12)
