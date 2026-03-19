@@ -1,5 +1,514 @@
----
-layout: home
-title: Home
-comments: false
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Changik Choi — Machine Learning Engineer specializing in GenAI, MLOps, and fraud detection systems at Capital One.">
+  <meta name="keywords" content="machine learning engineer, GenAI, MLOps, Kubeflow, LangChain, Python, Capital One, Changik Choi">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://taigi0315.github.io/">
+  <meta property="og:title"       content="Changik Choi | Machine Learning Engineer">
+  <meta property="og:description" content="ML Engineer specializing in GenAI workflows, MLOps, and large-scale fraud detection systems.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Changik Choi | Machine Learning Engineer">
+  <meta name="twitter:description" content="ML Engineer specializing in GenAI workflows, MLOps, and large-scale fraud detection systems.">
+
+  <title>Changik Choi | Machine Learning Engineer</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- ===========================================================
+       NAVIGATION
+       =========================================================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">CC</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===========================================================
+       HERO
+       =========================================================== -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero-content">
+      <span class="hero-label">Open to new opportunities</span>
+      <h1 class="hero-name">Changik Choi</h1>
+      <p class="hero-title">Machine Learning Engineer</p>
+      <p class="hero-tagline">
+        ML Engineer by day. Woodworker, coffee enthusiast, house flipper,
+        and family man the rest of the time.
+      </p>
+      <div class="hero-cta">
+        <a href="https://github.com/taigi0315" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero-scroll" aria-label="Scroll to About section">
+      <span>scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ===========================================================
+       ABOUT
+       =========================================================== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo-wrap">
+          <img src="assets/img/profile.jpg" alt="Changik Choi" class="about-photo" width="220" height="220">
+        </div>
+
+        <div class="about-text">
+          <p>
+            Hi, I'm Changik — a Machine Learning Engineer with 7+ years of experience
+            building production ML systems, data pipelines, and developer tooling at
+            Capital One and IBM. I thrive at the intersection of data science and
+            software engineering, turning complex research into reliable, scalable systems.
+          </p>
+          <p>
+            Currently at Capital One's Shared Tech GenAI team, I contribute to a
+            generative AI workflows platform that enables teams to deploy LLM-powered
+            applications using LangChain, GPT, and LLaMA. Previously, I led MLOps
+            platform migrations, owned a merchant fraud detection system end-to-end,
+            and built shared tooling that accelerated development across the entire
+            Card Tech organization.
+          </p>
+
+          <div class="about-badges">
+            <span class="badge">📍 Dallas, TX</span>
+            <span class="badge">🎓 B.S. Computer Science — UT Rio Grande Valley</span>
+            <span class="badge">💼 Open to work</span>
+          </div>
+
+          <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            Download Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================================================
+       SKILLS
+       =========================================================== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>ML &amp; GenAI</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Python</li>
+            <li class="skill-item">LangChain</li>
+            <li class="skill-item">LangGraph</li>
+            <li class="skill-item">RAG</li>
+            <li class="skill-item">LLM Inference</li>
+            <li class="skill-item">Agent Workflows</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Platform &amp; MLOps</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Kubernetes</li>
+            <li class="skill-item">Helm</li>
+            <li class="skill-item">ArgoCD</li>
+            <li class="skill-item">Docker</li>
+            <li class="skill-item">AWS</li>
+            <li class="skill-item">FastAPI</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Observability</h3>
+          <ul class="skill-list">
+            <li class="skill-item">New Relic</li>
+            <li class="skill-item">OpenTelemetry</li>
+            <li class="skill-item">Arize Phoenix</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Engineering</h3>
+          <ul class="skill-list">
+            <li class="skill-item">REST APIs</li>
+            <li class="skill-item">gRPC</li>
+            <li class="skill-item">CI/CD</li>
+            <li class="skill-item">Git</li>
+            <li class="skill-item">ETL Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================================================
+       PROJECTS
+       =========================================================== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Personal builds — things I make for fun</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT: short_factory_langchain -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-image-placeholder" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/>
+              </svg>
+              <span>Add screenshot</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Short Factory — LangChain Edition</h3>
+            <p class="project-description">
+              Full-stack AI video generator that takes a text topic and produces a finished
+              YouTube Short or Instagram Reel in 2–3 minutes. Powered by a five-agent
+              LangChain pipeline: story finder, script writer, image generator, voice
+              synthesizer, and video assembler.
+            </p>
+            <div class="project-tags">
+              <span class="tag">LangChain</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">ElevenLabs</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/taigi0315/short_factory_langchain" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT: LangFlix -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-image-placeholder" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              <span>Add screenshot</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">LangFlix</h3>
+            <p class="project-description">
+              AI-powered language learning platform that transforms TV show subtitle files
+              into personalized educational video clips — Netflix-style, dual subtitles,
+              AI-extracted idioms and expressions. 743 passing tests, 95.5% AI extraction
+              accuracy, 180ms average API response time.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">FFmpeg</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/taigi0315/langflix" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT: ShortFactory -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-image-placeholder" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+              </svg>
+              <span>Add screenshot</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ShortFactory</h3>
+            <p class="project-description">
+              End-to-end YouTube Shorts automation tool. Give it a topic — it generates
+              the script via GPT-4, synthesizes narration via ElevenLabs, creates images,
+              assembles 9:16 video with synced audio, and uploads to YouTube automatically.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenAI GPT-4</span>
+              <span class="tag">ElevenLabs</span>
+              <span class="tag">YouTube API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/taigi0315/ShortFactory" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /.projects-grid -->
+    </div>
+  </section>
+
+  <!-- ===========================================================
+       EXPERIENCE
+       =========================================================== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">Where I've worked</p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Capital One — GenAI -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Sr. Machine Learning Engineer — Shared Tech, GenAI</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">Capital One</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Sep 2024 – Present</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Contributing to an enterprise GenAI workflows platform that enables teams to deploy LLM-powered applications using LangChain tools</li>
+              <li>Integrating large language models including OpenAI GPT and Meta LLaMA into the platform to power generative AI use cases across the organization</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Capital One — Fraud ML -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Sr. Machine Learning Engineer — Card Tech, Fraud</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">Capital One</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Dec 2021 – Sep 2024</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Led onboarding of a new Data Science team onto the ELSA project using Kubeflow, developing Jupyter notebook tooling that streamlined the setup process and enabled independent iteration</li>
+              <li>Assumed end-to-end ownership of the Merchant Anomaly Detection (MAD) fraud detection system, leading platform migration from AWS EMR to Kubeflow and Rubie</li>
+              <li>Planned and led the SPIDI production release, resolving deployment blockers in collaboration with the Enterprise ML Platform team and developing new utilities for code reuse</li>
+              <li>Led migration of multiple projects (MAD, ELSA, Ring &amp; Repeat) from legacy platforms to the Enterprise Machine Learning Platform (EMP), improving pipeline efficiency</li>
+              <li>Served as Kubeflow subject matter expert — created development templates, conducted best-practice sessions, and mentored junior engineers through pair programming</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Capital One — Senior SWE -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Senior Software Engineer — Card Tech, Fraud</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">Capital One</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Jul 2021 – Dec 2021</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Devised and executed a solution to remediate large-scale historical SPIDI data that exceeded existing tooling capacity, meeting all security and compliance requirements</li>
+              <li>Successfully remediated all SPIDI data in QA and production environments, eliminating vulnerabilities and ensuring data security compliance</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Capital One — SWE Fraud -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Software Engineer — Card Tech, Fraud</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">Capital One</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Jun 2019 – Jul 2021</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built end-to-end model monitoring workflows using Rubie and Argo, providing reusable templates that standardized big data processing across teams</li>
+              <li>Developed data pipelines and ETL processes that reduced dependency on external data sources and enhanced control over model monitoring and analysis</li>
+              <li>Extended gRPC endpoints to support REST requests, improving interoperability and client integration across services</li>
+              <li>Led development of a shared utilities library that eliminated hundreds of lines of redundant code across repositories, standardizing logging, data access, and platform interactions</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Capital One — SWE Shared Tech -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Software Engineer — Shared Tech</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">Capital One</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Aug 2018 – May 2019</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Contributed to Walmart Co-brand card plastics data migration from Onelake to Snowflake using the Symphony framework, improving data accessibility and system performance</li>
+              <li>Built a Monitoring &amp; Alerting As Code service — Angular frontend and AWS Lambda backend — enabling teams to provision monitoring metrics from bulk JSON configuration files</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- IBM Watson Health -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Software Developer</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">IBM Watson Health</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Feb 2017 – Aug 2018</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed a RESTful microservice (Optimization Engine) that ingests patient data and prioritizes patient subsets for provider engagement</li>
+              <li>Built Homestead, a HIPAA-compliant web application managing scalable communication microservices for healthcare clients, using JavaScript, TypeScript, Docker, and Rancher</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- UT RGV -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Research Assistant &amp; STEM Tutor</h3>
+              <div class="timeline-meta">
+                <span class="timeline-company">University of Texas Rio Grande Valley</span>
+                <span class="timeline-sep">·</span>
+                <span class="timeline-date">Aug 2015 – Aug 2016</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Assisted a lead professor's research on Machine Learning topics, contributing to experiments and analysis</li>
+              <li>Served as a STEM Tutor supporting engineering students in achieving their academic goals</li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- /.timeline -->
+    </div>
+  </section>
+
+  <!-- ===========================================================
+       CONTACT
+       =========================================================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <p class="contact-intro">
+          I'm open to new opportunities in machine learning engineering, MLOps, and
+          GenAI. Feel free to reach out — I'd love to connect.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:changik0315@gmail.com" class="contact-link">
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </span>
+            changik0315@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/changik-choi/" class="contact-link" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </span>
+            linkedin.com/in/changik-choi
+          </a>
+
+          <a href="https://github.com/taigi0315" class="contact-link" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+            </span>
+            github.com/taigi0315
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================================================
+       FOOTER
+       =========================================================== -->
+  <footer>
+    <p>
+      &copy; 2026 Changik Choi &mdash;
+      Built with plain HTML, CSS &amp; JS &mdash;
+      <a href="https://github.com/taigi0315/taigi0315.github.io" target="_blank" rel="noopener noreferrer">Source</a>
+    </p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
