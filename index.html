@@ -229,30 +229,33 @@
         <!-- PROJECT: LangFlix -->
         <article class="project-card">
           <div class="project-image">
-            <div class="project-image-placeholder" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
-              </svg>
-              <span>Add screenshot</span>
-            </div>
+            <a href="http://langflix.duckdns.org:5000/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/langflix-dashboard.png" alt="LangFlix Video Dashboard screenshot" style="width:100%;height:200px;object-fit:cover;display:block;">
+            </a>
           </div>
           <div class="project-body">
             <h3 class="project-title">LangFlix</h3>
             <p class="project-description">
-              AI-powered language learning platform that transforms TV show subtitle files
-              into personalized educational video clips — Netflix-style, dual subtitles,
-              AI-extracted idioms and expressions. 743 passing tests, 95.5% AI extraction
-              accuracy, 180ms average API response time.
+              AI-powered language learning platform that turns TV drama files into educational
+              YouTube clips — dual subtitles, Gemini-extracted idioms, auto-upload to YouTube.
+              Fully self-hosted on AWS EC2 with Docker Compose, GitHub Actions CI/CD,
+              Redis job queue, and OAuth-based YouTube authentication.
             </p>
             <div class="project-tags">
               <span class="tag">Python</span>
               <span class="tag">FastAPI</span>
-              <span class="tag">Gemini</span>
-              <span class="tag">PostgreSQL</span>
+              <span class="tag">Gemini 2.5</span>
               <span class="tag">FFmpeg</span>
+              <span class="tag">Docker</span>
+              <span class="tag">AWS EC2</span>
+              <span class="tag">Redis</span>
+              <span class="tag">YouTube API</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/taigi0315/langflix" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+              <a href="http://langflix.duckdns.org:5000/" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                🚀 Live Demo
+              </a>
+              <a href="https://github.com/taigi0315/Langflix" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </div>
